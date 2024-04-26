@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+/* !base css start */
+
+*{
+    margin:0;
+}
+body{
+   
+    
+     font-family: "Electrolize", sans-serif;
+          
+        
+}
+/* !base css end */
+
+/* !navbar start */
+.navbar{
+    background-color: #000;
+    height: 50px;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    font-size: 30px;
+    color: rgb(255, 70, 70);
+}
+.navbar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 50px;
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+    column-gap: 30PX;
+}
+.menu-list-item{
+    cursor:pointer
+}
+.menu-list-item:hover{
+    font-weight: bold;
+}
+/* !navbar end */
+
+/* !sidebar start */
+.sidebar{
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    row-gap: 40px;
+    position: fixed;
+    
+}
+.sidebar i{
+    color:white;
+    font-size: 20px ;
+    cursor: pointer;
+}
+/* !sidebar end */
+/* !featured start */
+.content-wrapper{
+    margin-left:50px
+}
+
+.featured-content{
+    background: url("/assers/Img/spiderman.jpg");
+    padding :50px;
+    height: calc(100vh-150px);
+    background-size: 100% 100%;
+}
+.featured-title{
+    width: 400px;
+}
+.featured-desc{
+    width: 500px;
+    background-color: rgb(255, 255, 0.5);
+    padding: 10px;
+    margin: 30px 0;
+}
+.featured-buttons{
+    display: flex;
+    column-gap: 20px;
+}
+.featured-buttons button {
+    padding: 10px 25px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    column-gap: 10px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+/* !featured start */
